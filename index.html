@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Dom</title>
+    <link rel = "stylesheet" href = "./style.css">
+
+</head>
+<body>
+    <section id = "mainBanner">
+        <h1 id = "heading">CHALLENGE ONE - KEYCODE GENERATOR</h1>
+    </section>
+
+    <section>
+        <div id = "intro">Welcome to Mark's KeyCode Generator! Buckle in!</div>
+
+        <div id = "instructions">Press any key to find out lots of fun information about it!</div>
+    </section>
+
+    <section>
+        <div class = "mobileContent">
+            <input type = "text" id = "inputBox"><br /><br />
+            <p>Enter a key value in the text box!</p>
+        </div>
+    </section>
+
+    <section id = "resultsSection"
+        <div id = "output">
+            <div class = "resultsBoxes">
+                <h2 class="boxHeader">Key Pressed</h2>
+                <div id = "key"></div>
+                <p>The value of the key pressed. Accounts for modifiers keys that return CAPS and alternate chars.</p>
+                
+            </div>
+            <div class = "resultsBoxes">
+                <h2 class="boxHeader">Key Code</h2>
+                <div id = "keyCode"></div>
+                <p>The physical key on the keyboard. Doesn't care if you are holding a modifier like Shift.</p>
+            </div>
+            <div class = "resultsBoxes">
+                <h2 class="boxHeader">Key Character Code</h2>
+                <div id = "keyCharCode"></div>
+                <p>event.which and event.keyCode are deprecated in modern browsers. Use .key or .code instead.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src = "./main.js"></script>
+</body>
+</html>

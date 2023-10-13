@@ -1,0 +1,97 @@
+ /* Hide the text box on screens over 600px */
+
+.mobileContent {
+    display: none;
+}
+ 
+ /* Media query for screens with a maximum width of 600px */
+ @media (max-width: 600px) {
+    
+.mobileContent {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+}
+}
+
+#mainBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 20px 0px 20px 0px;
+}
+
+#heading {
+    font-size: 50px;
+}
+
+#intro {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#instructions {
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#resultsSection {
+    display: none;
+}
+
+.output {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 20px 0px 20px 0px;
+}
+
+.resultsBoxes {
+    text-align: center;
+    width: 33%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 0px 20px 0px 20px;
+    margin: 20px;
+}
+
+.boxHeader {
+    h2: 
+
+}
+
+#key {
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+#keyCode {
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+#keyCharCode {
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
